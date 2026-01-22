@@ -4,6 +4,13 @@ A streamlined desktop quiz application built with **Python + Tkinter** for pract
 **Certified Data Management Professional (CDMP)** exam.
 
 The application runs fully offline and loads questions directly from an Excel file.
+---
+
+## 🖼️ Application Preview
+
+![Application Screenshot](images/screenshot.png)
+
+![Application Demo](images/demo.gif)
 
 ---
 
