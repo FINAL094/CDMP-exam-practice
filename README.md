@@ -73,7 +73,7 @@ https://www.python.org/downloads/
 **“Add Python to PATH”**
 
 - Required Python packages:
-- 
+  
 Open >> Terminal / CMD/ Powershell
 
 ```bash
