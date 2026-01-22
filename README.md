@@ -4,13 +4,30 @@ A streamlined desktop quiz application built with **Python + Tkinter** for pract
 **Certified Data Management Professional (CDMP)** exam.
 
 The application runs fully offline and loads questions directly from an Excel file.
+
 ---
 
-## 🖼️ Application Preview
+## 📂 Project Structure (IMPORTANT)
 
-![Application Screenshot](images/screenshot.png)
+This application expects **both files in the SAME directory**.
 
-![Application Demo](images/demo.gif)
+CDMP-exam-practice/
+
+├── CDMP Practice Exam V1.0.py
+
+├── CDMP Practice Exam.xlsx
+
+├── README.md
+
+└── images/
+
+    ├── screenshot.png
+    
+    └── demo.gif
+    
+
+✔ Do NOT place files in subfolders  
+✔ File name must match **exactly**
 
 ---
 
@@ -33,60 +50,76 @@ LinkedIn: https://www.linkedin.com/in/eng-mostafa-maher
 - 🕌 Islamic greeting and respectful user interface
 - 📄 Excel-based question source
 - 🖥️ Fully offline desktop application
-
+- Works for all operating systems (Windows, Linux, Mac, anything that have pyhton installed)
 ---
 
+## 🖼️ Application Preview
+
+![Application Screenshot](images/screenshot.png)
+
+## 🖼️ GIF
+
+![Application Demo](images/demo.gif)
+
+---
 ## 🛠️ Requirements
 
 - Python **3.9+** (tested up to Python 3.13)
+
+Download Python **only from the official website**:  
+https://www.python.org/downloads/
+
+⚠️ **Windows users**: during installation, **check**  
+**“Add Python to PATH”**
+
 - Required Python packages:
+- 
+Open >> Terminal / CMD/ Powershell
 
+```bash
 pip install pandas openpyxl
-
+```
 ---
-
-## 📂 Project Structure (IMPORTANT)
-
-This application expects **both files in the SAME directory**.
-
-cdmp-quiz/
-
-├── cdmp_quiz.py
-
-└── CDMP Practice Exam.xlsx
-
-✔ Do NOT place files in subfolders  
-✔ File name must match **exactly**
-
----
-
 ## 🚀 How to Run
+Download Python ONLY from the official website:
+https://www.python.org/downloads/
 
 ### 1️⃣ Clone or Download the Repository
+Works for all operating systems (Windows, Linux, Mac, anything that have pyhton installed)
 
-git clone https://github.com/FINAL094/cdmp-quiz.git
+Open >> Terminal / CMD/ Powershell
+
+```bash
+git clone https://github.com/FINAL094/CDMP-exam-practice.git
+```
 
 Or download the ZIP file and extract it.
 
 ---
 
 ### 2️⃣ Navigate to the Application Folder
+Locate the directory
 
-cd cdmp-quiz
+```bash
+cd CDMP-exam-practice
+```
 
-Make sure both `cdmp_quiz.py` and `CDMP Practice Exam.xlsx` are in this folder.
+Make sure both `CDMP Practice Exam V1.0.py` and `CDMP Practice Exam.xlsx` are in this folder.
 
 ---
 
 ### 3️⃣ Install Dependencies (One Time Only)
 
+```bash
 pip install pandas openpyxl
-
+```
 ---
 
 ### 4️⃣ Run the Application
 
-python cdmp_quiz.py
+```bash
+python CDMP Practice Exam V1.0.py
+```
 
 The quiz window will open immediately.
 
@@ -160,7 +193,7 @@ Click **“Review Exam”** when it becomes enabled.
 
 Make sure that:
 - The file name is exactly: CDMP Practice Exam.xlsx
-- The file is in the same folder as cdmp_quiz.py
+- The file is in the same folder as CDMP Practice Exam V1.0.py
 - You are running the script from that folder
 
 ---
